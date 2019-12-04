@@ -8,4 +8,8 @@ class StaticPagesController < ApplicationController
   def about
     'app/views/static_pages/about.html'
   end
+
+  def contact
+    'app/views/static_pages/contact.html'
+  end
 end
